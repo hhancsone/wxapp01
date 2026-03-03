@@ -1,0 +1,227 @@
+{
+	"pages": [
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": "首页"
+			}
+		},
+		{
+			"path": "pages/identify/identify",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": "识别"
+			}
+		},
+		{
+			"path": "pages/encyclopedia/encyclopedia",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": "百科"
+			}
+		},
+		{
+			"path": "pages/mine/mine",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": "我的"
+			}
+		},
+		{
+			"path": "pages/encyclopedia/detail",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": "药材详情"
+			}
+		},
+		{
+			"path": "pages/mine/collection",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": "我的收藏"
+			}
+		},
+		{
+			"path": "pages/mine/about",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": "关于我们"
+			}
+		},
+		{
+			"path": "pages/mine/identify-records",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": "识别记录"
+			}
+		},
+		{
+			"path": "uni_modules/uni-id-pages/pages/userinfo/deactivate/deactivate",
+			"style": {
+				"navigationBarTitleText": "注销账号"
+			}
+		},
+		{
+			"path": "uni_modules/uni-id-pages/pages/userinfo/userinfo",
+			"style": {
+				"navigationBarTitleText": "个人资料"
+			}
+		},
+		{
+			"path": "uni_modules/uni-id-pages/pages/userinfo/bind-mobile/bind-mobile",
+			"style": {
+				"navigationBarTitleText": "绑定手机号码"
+			}
+		},
+	
+		{
+			"path": "uni_modules/uni-id-pages/pages/userinfo/cropImage/cropImage",
+			"style": {
+				"navigationBarTitleText": ""
+			}
+		},
+		
+		{
+			"path": "uni_modules/uni-id-pages/pages/login/login-withoutpwd",
+			"style": {
+				"navigationBarTitleText": ""
+			}
+		},
+		{
+			"path": "uni_modules/uni-id-pages/pages/login/login-withpwd",
+			"style": {
+				"navigationBarTitleText": ""
+			}
+		},
+		{
+			"path": "uni_modules/uni-id-pages/pages/login/login-smscode",
+			"style": {
+				"navigationBarTitleText": "手机验证码登录"
+			}
+		},
+		{
+			"path": "uni_modules/uni-id-pages/pages/register/register",
+			"style": {
+				"navigationBarTitleText": "注册"
+			}
+		},
+		
+		{
+			"path": "uni_modules/uni-id-pages/pages/register/register-admin",
+			"style": {
+				"navigationBarTitleText": "注册管理员账号",
+				"enablePullDownRefresh": false
+			}
+		},
+		
+		{
+			"path": "uni_modules/uni-id-pages/pages/register/register-by-email",
+			"style": {
+				"navigationBarTitleText": "邮箱验证码注册"
+			}
+		},
+		{
+			"path": "uni_modules/uni-id-pages/pages/retrieve/retrieve",
+			"style": {
+				"navigationBarTitleText": "重置密码"
+			}
+		},
+		{
+			"path": "uni_modules/uni-id-pages/pages/retrieve/retrieve-by-email",
+			"style": {
+				"navigationBarTitleText": "通过邮箱重置密码"
+			}
+		},
+		{
+			"path": "uni_modules/uni-id-pages/pages/common/webview/webview",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+		}, {
+			"path": "uni_modules/uni-id-pages/pages/userinfo/change_pwd/change_pwd",
+			"style": {
+				"navigationBarTitleText": "修改密码",
+				"enablePullDownRefresh": false
+			}
+		},{
+			"path": "uni_modules/uni-id-pages/pages/userinfo/set-pwd/set-pwd",
+			"style": {
+				"navigationBarTitleText": "设置密码",
+				"enablePullDownRefresh": false
+			}
+		},{
+			"path": "uni_modules/uni-id-pages/pages/userinfo/realname-verify/realname-verify",
+			"style": {
+				"navigationBarTitleText": "实名认证",
+				"enablePullDownRefresh": false
+			}
+		}
+	,{
+    "path": "pages/fenlei/add",
+    "style": {
+        "navigationBarTitleText": "新增"
+    }
+}
+,{
+    "path": "pages/fenlei/edit",
+    "style": {
+        "navigationBarTitleText": "编辑"
+    }
+}
+,{
+    "path": "pages/fenlei/list",
+    "style": {
+        "navigationBarTitleText": "列表"
+    }
+}
+],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "中草药百科",
+		"navigationBarBackgroundColor": "#FFF",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"custom": true,
+		"color": "#7A7E83",
+		"selectedColor": "#18C445",
+		"borderStyle": "white",
+		"backgroundColor": "#FFFFFF",
+		"list": [
+			{
+				"pagePath": "pages/index/index",
+				"text": "首页"
+			},
+			{
+				"pagePath": "pages/identify/identify",
+				"text": "识别"
+			},
+			{
+				"pagePath": "pages/encyclopedia/encyclopedia",
+				"text": "百科"
+			},
+			{
+				"pagePath": "pages/mine/mine",
+				"text": "我的"
+			}
+		]
+	},
+	"condition": { 
+		"current": 0, 
+		"list": [{
+			"name": "", 
+			"path": "", 
+			"query": ""
+		}]
+	},
+	"uniIdRouter": {
+		"loginPage": "uni_modules/uni-id-pages/pages/login/login-withoutpwd",
+		"needLogin": [
+			"pages/index/index",
+			"uni_modules/uni-id-pages/pages/userinfo/userinfo"
+		],
+		"resToLogin": true
+	}
+}
