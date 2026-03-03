@@ -1,0 +1,40 @@
+
+{
+	"bsonType": "object",
+	"required": [],
+	"permission": {
+		"read": false,
+		"create": false,
+		"update": false,
+		"delete": false
+	},
+	"properties": {
+		"_id": {
+			"description": "ID，系统自动生成"
+		},
+		"herb_name": {
+			"bsonType": "string",
+			"description": "药材名称"
+		},
+		"confidence": {
+			"bsonType": "number",
+			"description": "匹配度"
+		},
+		"identify_time": {
+			"bsonType": "timestamp",
+			"description": "识别时间"
+		},
+		"user_id": {
+			"bsonType": "string",
+			"description": "识别用户ID"
+		},
+		"user_nickname": {
+			"bsonType": "string",
+			"description": "识别用户昵称"
+		},
+		"image_url": {
+			"bsonType": "string",
+			"description": "识别图片URL"
+		}
+	}
+}
