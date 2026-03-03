@@ -1,0 +1,182 @@
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.detail-page {
+  min-height: 100vh;
+  background: #f5f5f5;
+}
+.hero-section {
+  position: relative;
+  width: 100%;
+  height: 500rpx;
+  overflow: hidden;
+}
+.hero-image {
+  width: 100%;
+  height: 100%;
+}
+.hero-placeholder {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.hero-placeholder.bg-1 {
+  background: linear-gradient(135deg, #4CAF50 0%, #2E7D32 100%);
+}
+.hero-placeholder.bg-2 {
+  background: linear-gradient(135deg, #FF9800 0%, #E65100 100%);
+}
+.hero-placeholder.bg-3 {
+  background: linear-gradient(135deg, #E91E63 0%, #C2185B 100%);
+}
+.hero-placeholder.bg-4 {
+  background: linear-gradient(135deg, #2196F3 0%, #1976D2 100%);
+}
+.hero-placeholder.bg-5 {
+  background: linear-gradient(135deg, #9C27B0 0%, #7B1FA2 100%);
+}
+.hero-placeholder.bg-6 {
+  background: linear-gradient(135deg, #FF5722 0%, #E64A19 100%);
+}
+.hero-placeholder.bg-7 {
+  background: linear-gradient(135deg, #00BCD4 0%, #0097A7 100%);
+}
+.hero-placeholder.bg-8 {
+  background: linear-gradient(135deg, #673AB7 0%, #512DA8 100%);
+}
+.hero-text {
+  font-size: 120rpx;
+  font-weight: bold;
+  color: #ffffff;
+}
+.back-btn {
+  position: absolute;
+  top: 80rpx;
+  left: 30rpx;
+  width: 70rpx;
+  height: 70rpx;
+  background: rgba(0, 0, 0, 0.3);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.back-icon {
+  font-size: 50rpx;
+  color: #ffffff;
+  line-height: 1;
+}
+.main-card {
+  margin: -60rpx 30rpx 30rpx;
+  background: #ffffff;
+  border-radius: 20rpx;
+  padding: 30rpx;
+  box-shadow: 0 4rpx 20rpx rgba(0, 0, 0, 0.08);
+  position: relative;
+  z-index: 1;
+}
+.name-section {
+  margin-bottom: 20rpx;
+}
+.name-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.herb-name {
+  font-size: 44rpx;
+  font-weight: bold;
+  color: #1a1a1a;
+  display: block;
+  margin-bottom: 10rpx;
+  flex: 1;
+}
+.collect-icon {
+  font-size: 44rpx;
+  color: #ffc107;
+  padding: 10rpx;
+}
+.latin-name {
+  font-size: 28rpx;
+  color: #888888;
+  font-style: italic;
+}
+.category-tag {
+  display: inline-block;
+  background: linear-gradient(135deg, #4CAF50 0%, #2E7D32 100%);
+  padding: 10rpx 24rpx;
+  border-radius: 30rpx;
+}
+.category-text {
+  font-size: 24rpx;
+  color: #ffffff;
+}
+.info-section {
+  padding: 0 30rpx;
+}
+.info-card {
+  background: #ffffff;
+  border-radius: 20rpx;
+  padding: 30rpx;
+  margin-bottom: 20rpx;
+  box-shadow: 0 2rpx 12rpx rgba(0, 0, 0, 0.04);
+}
+.info-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.info-item.full-width {
+  flex-direction: column;
+  align-items: flex-start;
+}
+.info-label {
+  display: flex;
+  align-items: center;
+  margin-bottom: 16rpx;
+}
+.label-icon {
+  font-size: 32rpx;
+  margin-right: 12rpx;
+}
+.label-text {
+  font-size: 28rpx;
+  color: #666666;
+}
+.info-value {
+  font-size: 30rpx;
+  color: #1a1a1a;
+  font-weight: 500;
+}
+.info-value.large {
+  line-height: 1.6;
+}
+.info-divider {
+  height: 1rpx;
+  background: #f0f0f0;
+  margin: 24rpx 0;
+}
